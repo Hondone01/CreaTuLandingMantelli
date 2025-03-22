@@ -29,12 +29,14 @@ body {
 }
 
 .nav-links {
+  margin-left: -100px;
   list-style: none;
   display: flex;
   gap: 1rem;
 }
 
 .nav-links li a {
+ /* margin-left: -50px;*/
   color: white;
   text-decoration: none;
 }
@@ -48,9 +50,21 @@ body {
   font-size: 1.2rem;
 }
 
+.item-list-container ul {
+  list-style: none;
+  padding: 20px; 
+}
 
-.item-list-container {
-  text-decoration: none;
-  padding: 5rem 2rem 2rem;
-  text-align: center;
+.item-list-container li {
+  font-size: 1.2rem;
+}
+
+
+
+.logo {
+  width: 150px;
+  height: 150px; 
+  border: solid 2px greenyellow;
+  border-radius: 80px; 
+
 }

@@ -1,11 +1,12 @@
 import React from 'react'
 import CartWidget from "./CartWidget";
+import logo from "../assets/logomonster.png";
 import "../App.css";
 
 const NavBar = () => {
   return (
     <nav className="navbar">
-      <h1>C-Monster</h1>
+      <img src={logo} alt="Logo de la tienda" className="logo" /> 
       <ul className="nav-links">
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Productos</a></li>
